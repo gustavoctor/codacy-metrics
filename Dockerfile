@@ -7,7 +7,7 @@ WORKDIR /app
 # Copia los archivos de tu proyecto al contenedor
 COPY . .
 
-# Instala las dependencias
+
 RUN pip install -r requirements.txt
 
 # Expone el puerto 8080
